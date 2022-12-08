@@ -1,0 +1,33 @@
+.container {
+    padding: 0.2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    margin-block-start: 0.5%;
+    font-weight: bold;
+}
+
+.enterRaffle {
+    display: flex;
+    /* justify-content: flex-end; */
+    padding: 1%;
+    margin-block-start: 0.5%;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    padding: 1%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+
+.enter {
+    display: flex;
+    padding: 1.5%;
+    margin-top: 3%;
+    margin-left: 0%;
+}
