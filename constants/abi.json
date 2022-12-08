@@ -55,7 +55,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [{ "type": "bytes" }],
         "outputs": [{ "type": "bool", "name": "upkeepNeeded" }, { "type": "bytes" }]
     },
@@ -65,7 +64,6 @@
         "constant": false,
         "stateMutability": "payable",
         "payable": true,
-        "gas": 29000000,
         "inputs": [],
         "outputs": []
     },
@@ -75,7 +73,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "uint256" }]
     },
@@ -85,7 +82,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "uint256" }]
     },
@@ -95,7 +91,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "uint256" }]
     },
@@ -105,7 +100,6 @@
         "constant": true,
         "stateMutability": "pure",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "uint256" }]
     },
@@ -115,7 +109,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "uint256" }]
     },
@@ -125,7 +118,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [{ "type": "uint256", "name": "index" }],
         "outputs": [{ "type": "address" }]
     },
@@ -135,7 +127,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "uint8" }]
     },
@@ -145,7 +136,6 @@
         "constant": true,
         "stateMutability": "view",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "address" }]
     },
@@ -155,7 +145,6 @@
         "constant": true,
         "stateMutability": "pure",
         "payable": false,
-        "gas": 29000000,
         "inputs": [],
         "outputs": [{ "type": "uint256" }]
     },
@@ -164,7 +153,6 @@
         "name": "performUpkeep",
         "constant": false,
         "payable": false,
-        "gas": 29000000,
         "inputs": [{ "type": "bytes" }],
         "outputs": []
     },
@@ -173,7 +161,6 @@
         "name": "rawFulfillRandomWords",
         "constant": false,
         "payable": false,
-        "gas": 29000000,
         "inputs": [
             { "type": "uint256", "name": "requestId" },
             { "type": "uint256[]", "name": "randomWords" }
