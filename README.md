@@ -148,6 +148,7 @@ yarn next export
 You can also have [Fleek](https://fleek.co/) auto-deploy your website if you connect your github. Connect to fleek and follow along the docs there. You'll get an IPFS hash and a "regular" URL for your site.
 
 Below link is the deployed website on Fleek
+
 https://spring-brook-8549.on.fleek.co/
 
 # Linting
