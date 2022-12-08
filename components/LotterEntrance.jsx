@@ -10,7 +10,7 @@ export default function LotterEntrance() {
     const { isWeb3Enabled, chainId: chainIdHex } = useMoralis()
 
     const chainId = parseInt(chainIdHex)
-    const raffleAddress = chainId in contractAddresses ? contractAddresses[chainId] : null
+    const raffleAddress = chainId in contractAddresses ? contractAddresses[chainId][0] : null
 
     const [entranceFee, setEntranceFee] = useState("0")
     const [getPlayers, setPlayers] = useState("0")
